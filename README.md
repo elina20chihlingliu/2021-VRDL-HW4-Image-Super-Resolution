@@ -25,17 +25,13 @@ To reproduct my submission without retrainig, run inference.ipynb on my Google D
 ## All steps including data preparation, train phase and test phase
 1. [Installation](#build-and-install-detectron2)
 2. [Dataset Preparation](#dataset-preparation)
-3. [Data Preprocessing]
-4. [Training](#training)
-5. [Testing](#testing)
-6. [Reference](#reference)
+3. [Training](#training)
+4. [Testing](#testing)
+5. [Reference](#reference)
 
 
 ### Dataset Preparation
-Download the given dataset from Google Drive: [datasets](https://drive.google.com/file/d/1GL_Rh1N-WjrvF_-YOKOyvq0zrV6TF4hb/view)
-
-### Data Preprocessing
-
+- Download the given dataset from Google Drive: [datasets](https://drive.google.com/file/d/1GL_Rh1N-WjrvF_-YOKOyvq0zrV6TF4hb/view)
 - run command `tt_train_valid.py` to split the data into train and valid folders 
 - generate the low-resolution images by scaling down train images by 3 times
 - run commands as below to convert png file to npy file
