@@ -63,11 +63,11 @@ After training, it may generate a folder named "checkpoint_x3", with weight file
 ### Testing
 - reconstruct a high-resolution image from a low-resolution input
 ```
-!python test_IMDN.py --checkpoint checkpoint_x3/epoch_50.pth --upscale_factor 3
+!python test_IMDN.py --checkpoint checkpoint_x3/epoch_25.pth --upscale_factor 3
 ```
 - download the [pretrained model](https://drive.google.com/file/d/1SHV_PUU-JixZOlybg3vJCpgjIQqeF-Of/view?usp=sharing) from my Google Drive
 ```
-!python test_IMDN.py --checkpoint checkpoint_x3/epoch_50.pth --upscale_factor 3
+!python test_IMDN.py --checkpoint checkpoint_x3/epoch_25.pth --upscale_factor 3
 ```
 
 ### Reference
