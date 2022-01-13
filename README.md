@@ -55,7 +55,7 @@ The files in the data folder is reorganized as below:
 ```
 
 ### Download Pretrained model
-- download the [pretrained model](https://drive.google.com/file/d/1YbTPlYBqjLHdwmfNh1sqbzrlSO8PXbCc/view?usp=sharing) from my Google Drive
+- download the [pretrained model](https://drive.google.com/file/d/1Fsx7E8kw6Qbe0re6cyYAEzozhvFtGx6S/view?usp=sharing) from my Google Drive
 
 ### Training
 - to train models, run following commands.
@@ -69,7 +69,7 @@ After training, it may generate a folder named "checkpoint_x3", with weight file
 ```
 !python test_IMDN.py --checkpoint checkpoint_x3/model.pth --upscale_factor 3
 ```
-- download the [pretrained model](https://drive.google.com/file/d/1YbTPlYBqjLHdwmfNh1sqbzrlSO8PXbCc/view?usp=sharing) from my Google Drive
+- download the [pretrained model](https://drive.google.com/file/d/1Fsx7E8kw6Qbe0re6cyYAEzozhvFtGx6S/view?usp=sharing) from my Google Drive
 ```
 !python test_IMDN.py --checkpoint checkpoint_x3/model.pth --upscale_factor 3
 ```
