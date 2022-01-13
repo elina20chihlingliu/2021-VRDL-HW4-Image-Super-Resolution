@@ -24,9 +24,10 @@ To reproduct my submission without retrainig, run inference.ipynb on my Google D
 
 ## All steps including data preparation, train phase and test phase
 1. [Dataset Preparation](#dataset-preparation)
-2. [Training](#training)
-3. [Testing](#testing)
-4. [Reference](#reference)
+2. [Download Pretrained model](#download-pretrained-model)
+3. [Training](#training)
+4. [Testing](#testing)
+5. [Reference](#reference)
 
 ### Dataset Preparation
 - Download the given [datasets](https://drive.google.com/file/d/1GL_Rh1N-WjrvF_-YOKOyvq0zrV6TF4hb/view) from Google Drive
@@ -52,6 +53,9 @@ The files in the data folder is reorganized as below:
        ├── HR - xxx.png  
        └── LR - xxx.png 
 ```
+
+### Download Pretrained model
+- download the [pretrained model](https://drive.google.com/file/d/1YbTPlYBqjLHdwmfNh1sqbzrlSO8PXbCc/view?usp=sharing) from my Google Drive
 
 ### Training
 - to train models, run following commands.
